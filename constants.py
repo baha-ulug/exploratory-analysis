@@ -9,5 +9,13 @@ categorical_columns = ["BOROUGH","NEIGHBORHOOD",'BUILDING CLASS CATEGORY', 'TAX 
 
 date_column = 'SALE DATE'
 
-borough_encoding = {1:'Manhattan', 2:'Bronx', 3: 'Brooklyn', 4:'Queens',5:'Staten Island'}
-#borough_encoding = {'Manhattan':1, 'Bronx':2, 'Brooklyn': 3, 'Queens':4 ,'Staten Island':5}
+borough_encoding = {
+    1:'Manhattan', 2:'Bronx', 3: 'Brooklyn', 4:'Queens',5:'Staten Island'
+    }
+
+column_name_map = {
+    "SALE PRICE": "SALE_PRICE",
+    "LAND SQUARE FEET": "SQUARE_FT",
+    "TOTAL UNITS":"UNITS_IN_BUILDING",
+    "BUILDING CLASS CATEGORY":"BUILDING_CLASS"
+}
