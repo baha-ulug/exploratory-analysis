@@ -19,3 +19,5 @@ column_name_map = {
     "TOTAL UNITS":"UNITS_IN_BUILDING",
     "BUILDING CLASS AT PRESENT":"BUILDING_CLASS"
 }
+
+target_variable = 'SALE PRICE'
