@@ -21,3 +21,31 @@ column_name_map = {
 }
 
 target_variable = 'SALE PRICE'
+file_path = 'data/nyc-rolling-sales.csv'
+
+"""
+BOROUGH: 
+A digit code for the borough the property is located in.
+
+- Manhattan = 1
+
+- Bronx = 2
+
+- Brooklyn = 3
+
+- Queens = 4
+
+- Staten Island = 5
+
+BLOCK; LOT: 
+
+- The combination of borough, block, and lot forms a unique key for property in New York City.
+
+
+BUILDING CLASS AT PRESENT and BUILDING CLASS AT TIME OF SALE: 
+
+- The type of building at various points in time.
+
+
+** Note : 0 dollar sales are actually transfers of ownership between parties.
+"""
