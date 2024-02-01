@@ -1,11 +1,9 @@
-numeric_columns = ["RESIDENTIAL UNITS","COMMERCIAL UNITS","TOTAL UNITS", "LAND SQUARE FEET" ,
-           "GROSS SQUARE FEET","SALE PRICE"
-           ]
+obj_cats = ['NEIGHBORHOOD', 'BUILDING CLASS CATEGORY', 'TAX CLASS AT PRESENT',
+       'EASE-MENT', 'BUILDING CLASS AT PRESENT', 'ADDRESS', 'APARTMENT NUMBER',
+       'BUILDING CLASS AT TIME OF SALE']
 
-categorical_columns = ["BOROUGH","NEIGHBORHOOD",'BUILDING CLASS CATEGORY', 'TAX CLASS AT PRESENT',
-               'BUILDING CLASS AT PRESENT','ZIP CODE', 'BUILDING CLASS AT TIME OF SALE', 
-               'TAX CLASS AT TIME OF SALE'
-               ]
+num_cats = ['BOROUGH', 'BLOCK', 'LOT', 'ZIP CODE',
+            'TAX CLASS AT TIME OF SALE']
 
 date_column = 'SALE DATE'
 
@@ -20,7 +18,7 @@ column_name_map = {
     "BUILDING CLASS AT PRESENT":"BUILDING_CLASS"
 }
 
-target_variable = 'SALE PRICE'
+target_variable = 'sale_price'
 file_path = 'data/nyc-rolling-sales.csv'
 
 """
